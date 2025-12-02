@@ -1,4 +1,4 @@
-package com.in28minutes.restful_web_services_springboot.app01;
+package com.in28minutes.restful_web_services_springboot.app;
 
 import org.springframework.stereotype.Component;
 

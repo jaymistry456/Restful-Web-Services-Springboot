@@ -1,4 +1,4 @@
-package com.in28minutes.restful_web_services_springboot.app01.ErrorHandling;
+package com.in28minutes.restful_web_services_springboot.app.ErrorHandling;
 
 import java.time.LocalDateTime;
 

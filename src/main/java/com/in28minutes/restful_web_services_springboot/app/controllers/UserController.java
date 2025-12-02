@@ -1,8 +1,8 @@
-package com.in28minutes.restful_web_services_springboot.app01.controllers;
+package com.in28minutes.restful_web_services_springboot.app.controllers;
 
-import com.in28minutes.restful_web_services_springboot.app01.ErrorHandling.UserNotFoundException;
-import com.in28minutes.restful_web_services_springboot.app01.UseDaoService;
-import com.in28minutes.restful_web_services_springboot.app01.User;
+import com.in28minutes.restful_web_services_springboot.app.ErrorHandling.UserNotFoundException;
+import com.in28minutes.restful_web_services_springboot.app.UseDaoService;
+import com.in28minutes.restful_web_services_springboot.app.User;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

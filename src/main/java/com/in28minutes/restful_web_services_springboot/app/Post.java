@@ -1,13 +1,15 @@
-package com.in28minutes.restful_web_services_springboot.app01;
+package com.in28minutes.restful_web_services_springboot.app;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Size;
 
 @Entity
 public class Post {
     @Id
     @GeneratedValue
     private Integer id;
+    @Size(min = 10)
     private String description;
     @ManyToOne(fetch = FetchType.LAZY)
     @JsonIgnore

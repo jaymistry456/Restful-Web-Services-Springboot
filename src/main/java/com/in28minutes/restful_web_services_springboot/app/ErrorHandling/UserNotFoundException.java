@@ -1,4 +1,4 @@
-package com.in28minutes.restful_web_services_springboot.app01.ErrorHandling;
+package com.in28minutes.restful_web_services_springboot.app.ErrorHandling;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
